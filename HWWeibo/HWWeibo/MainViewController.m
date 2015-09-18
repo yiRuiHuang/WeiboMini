@@ -68,7 +68,7 @@
     
 //    selectView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, kScreenWidth/5, 49)];
 //    selectView.image = [UIImage imageNamed:@"Skins/cat/home_bottom_tab_arrow.png"];
-    selectView = [[ThemeImageView alloc] initWithFrame:CGRectMake(0, 0, kScreenWidth/5, 49)];
+    selectView = [[ThemeImageView alloc] initWithFrame:CGRectMake(0, 0, kScreenWidth/4, 49)];
     selectView.imgName = @"home_bottom_tab_arrow.png";
     [self.tabBar addSubview:selectView];
     
@@ -81,17 +81,14 @@
 //                          ];
     NSArray *imgNames = @[
                           @"home_tab_icon_1.png",
-                          @"home_tab_icon_2.png",
                           @"home_tab_icon_3.png",
                           @"home_tab_icon_4.png",
                           @"home_tab_icon_5.png",
                           ];
     
-    for (NSInteger i = 0; i < 5; i++) {
-        
-//        UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(i*kScreenWidth/5, 0, kScreenWidth/5, 49)];
-//         [button setImage:[UIImage imageNamed:imgNames[i]] forState:UIControlStateNormal];
-        ThemeButton *button = [[ThemeButton alloc] initWithFrame:CGRectMake(i*kScreenWidth/5, 0, kScreenWidth/5, 49)];
+    for (NSInteger i = 0; i < 4; i++) {
+
+        ThemeButton *button = [[ThemeButton alloc] initWithFrame:CGRectMake(i*kScreenWidth/4, 0, kScreenWidth/4, 49)];
        [button setNormalImgName:imgNames[i]];
        
         button.tag = i;
@@ -104,7 +101,7 @@
 
 - (void)_createSubNav {
     
-    NSArray *names = @[@"Home",@"Message",@"Profile",@"Discover",@"More"];
+    NSArray *names = @[@"Home",@"Profile",@"Discover",@"More"];
     NSMutableArray *navArray = [[NSMutableArray alloc] init];
     
     for (NSString *name in names) {

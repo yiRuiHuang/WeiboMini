@@ -10,14 +10,14 @@
 	<string>HWWeibo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>12170A2D5D0C8115F499C29D988394B596ADC7C3</key>
+		<key>860BDA709DFDBEA9704886ED4E4B4B9B8BC906F4</key>
 		<string>https://github.com/yiRuiHuang/HWWeibo.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>HWWeibo/HWWeibo.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>12170A2D5D0C8115F499C29D988394B596ADC7C3</key>
+		<key>860BDA709DFDBEA9704886ED4E4B4B9B8BC906F4</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>12170A2D5D0C8115F499C29D988394B596ADC7C3</string>
+	<string>860BDA709DFDBEA9704886ED4E4B4B9B8BC906F4</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>12170A2D5D0C8115F499C29D988394B596ADC7C3</string>
+			<string>860BDA709DFDBEA9704886ED4E4B4B9B8BC906F4</string>
 			<key>IDESourceControlWCCName</key>
 			<string>HWWeibo</string>
 		</dict>
