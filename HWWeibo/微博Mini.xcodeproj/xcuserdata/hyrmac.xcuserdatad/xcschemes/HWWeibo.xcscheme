@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4242F8061B8422F50067EE05"
-               BuildableName = "HWWeibo.app"
-               BlueprintName = "HWWeibo"
-               ReferencedContainer = "container:HWWeibo.xcodeproj">
+               BuildableName = "&#x5fae;&#x535a;Mini.app"
+               BlueprintName = "&#x5fae;&#x535a;Mini"
+               ReferencedContainer = "container:&#x5fae;&#x535a;Mini.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,27 +29,27 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4242F81F1B8422F50067EE05"
-               BuildableName = "HWWeiboTests.xctest"
-               BlueprintName = "HWWeiboTests"
-               ReferencedContainer = "container:HWWeibo.xcodeproj">
+               BuildableName = "&#x5fae;&#x535a;Mini.xctest"
+               BlueprintName = "&#x5fae;&#x535a;MiniTests"
+               ReferencedContainer = "container:&#x5fae;&#x535a;Mini.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      buildConfiguration = "Debug">
+      shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4242F81F1B8422F50067EE05"
-               BuildableName = "HWWeiboTests.xctest"
-               BlueprintName = "HWWeiboTests"
-               ReferencedContainer = "container:HWWeibo.xcodeproj">
+               BuildableName = "&#x5fae;&#x535a;Mini.xctest"
+               BlueprintName = "&#x5fae;&#x535a;MiniTests"
+               ReferencedContainer = "container:&#x5fae;&#x535a;Mini.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,20 +57,23 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4242F8061B8422F50067EE05"
-            BuildableName = "HWWeibo.app"
-            BlueprintName = "HWWeibo"
-            ReferencedContainer = "container:HWWeibo.xcodeproj">
+            BuildableName = "&#x5fae;&#x535a;Mini.app"
+            BlueprintName = "&#x5fae;&#x535a;Mini"
+            ReferencedContainer = "container:&#x5fae;&#x535a;Mini.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
    </TestAction>
    <LaunchAction
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Debug"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
       allowLocationSimulation = "YES"
       region = "CN">
       <BuildableProductRunnable
@@ -78,9 +81,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4242F8061B8422F50067EE05"
-            BuildableName = "HWWeibo.app"
-            BlueprintName = "HWWeibo"
-            ReferencedContainer = "container:HWWeibo.xcodeproj">
+            BuildableName = "&#x5fae;&#x535a;Mini.app"
+            BlueprintName = "&#x5fae;&#x535a;Mini"
+            ReferencedContainer = "container:&#x5fae;&#x535a;Mini.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -92,19 +95,19 @@
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
+      buildConfiguration = "Release"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4242F8061B8422F50067EE05"
-            BuildableName = "HWWeibo.app"
-            BlueprintName = "HWWeibo"
-            ReferencedContainer = "container:HWWeibo.xcodeproj">
+            BuildableName = "&#x5fae;&#x535a;Mini.app"
+            BlueprintName = "&#x5fae;&#x535a;Mini"
+            ReferencedContainer = "container:&#x5fae;&#x535a;Mini.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

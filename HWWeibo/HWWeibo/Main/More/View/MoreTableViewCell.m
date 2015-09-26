@@ -38,9 +38,9 @@
     _contentLabel.backgroundColor = [UIColor clearColor];
     
     _themeLabel.colorName = @"More_Item_Text_color";
-  //  _themeLabel.textAlignment = NSTextAlignmentRight;
     _themeLabel.font = [UIFont boldSystemFontOfSize:16.0];
     _themeLabel.backgroundColor = [UIColor clearColor];
+
     
     _iconImageView.imgName = _modal.iconName;
     _iconImageView.backgroundColor = [UIColor clearColor];

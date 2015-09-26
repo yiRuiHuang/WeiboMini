@@ -58,34 +58,38 @@
     _screenNameLabel = [[ThemeLabel alloc] initWithFrame:CGRectMake(66, 8,kScreenWidth-66-10, 25)];
     [self addSubview:_screenNameLabel];
     
-    _genderLabel = [[ThemeLabel alloc] initWithFrame:CGRectMake(66, 40, 15, 15)];
-    [self addSubview:_genderLabel];
+//    _genderLabel = [[ThemeLabel alloc] initWithFrame:CGRectMake(66, 40, 15, 15)];
+//    [self addSubview:_genderLabel];
     
-    _provinceLabel = [[ThemeLabel alloc] initWithFrame:CGRectMake(85, 40, 30, 15)];
-    [self addSubview:_provinceLabel];
+//    _provinceLabel = [[ThemeLabel alloc] initWithFrame:CGRectMake(85, 40, 30, 15)];
+//    [self addSubview:_provinceLabel];
     
-    _userDescriptionLabel = [[ThemeLabel alloc] initWithFrame:CGRectMake(66, 60, kScreenWidth-66-10, 15)];
+    _userDescriptionLabel = [[ThemeLabel alloc] initWithFrame:CGRectMake(66, 40, kScreenWidth-66-10, 15)];
+    _userDescriptionLabel.font = [UIFont systemFontOfSize:12];
+    _userDescriptionLabel.textColor = [UIColor lightGrayColor];
     [self addSubview:_userDescriptionLabel];
     
     
-    _friendsCountButton = [[UIButton alloc] initWithFrame:CGRectMake(8, 70, 100, 40)];
+    _friendsCountButton = [[UIButton alloc] initWithFrame:CGRectMake(0, 70, 80, 40)];
     [_friendsCountButton addTarget:self
                             action:@selector(friendAction)
                   forControlEvents:UIControlEventTouchUpInside];
-    
+    _friendsCountButton.titleLabel.font = [UIFont boldSystemFontOfSize:16];
     [self addSubview:_friendsCountButton];
     
     
     
-    _followersCountButton = [[UIButton alloc] initWithFrame:CGRectMake(120, 70, 100, 40)];
+    _followersCountButton = [[UIButton alloc] initWithFrame:CGRectMake(80, 70, 80, 40)];
     [self addSubview:_followersCountButton];
+    _followersCountButton.titleLabel.font = [UIFont boldSystemFontOfSize:16];
     [_followersCountButton addTarget:self
                               action:@selector(followAction)
                     forControlEvents:UIControlEventTouchUpInside];
     
     
     
-    _statusesCountLabel = [[ThemeLabel alloc] initWithFrame:CGRectMake(8, 120, kScreenWidth-18, 30)];
+    _statusesCountLabel = [[ThemeLabel alloc] initWithFrame:CGRectMake(170, 70, kScreenWidth-170-10, 40)];
+    _statusesCountLabel.font = [UIFont boldSystemFontOfSize:16];
     [self addSubview:_statusesCountLabel];
     
     
@@ -100,11 +104,11 @@
     
     _screenNameLabel.text = _model.screenName;
     
-    _genderLabel.text = _model.gender;
+//    _genderLabel.text = _model.gender;
     
-    _provinceLabel.text = _model.province;
+//    _provinceLabel.text = _model.province;
     
-    _userDescriptionLabel.text = _model.userDescription;
+    _userDescriptionLabel.text = [NSString stringWithFormat:@"简介：%@",_model.userDescription];
     
     
     [_friendsCountButton setTitle:[NSString stringWithFormat:@"关注%@",_model.friendsCount] forState:UIControlStateNormal];
@@ -112,7 +116,7 @@
     [_followersCountButton setTitle:[NSString stringWithFormat:@"粉丝%@",_model.followersCount] forState:UIControlStateNormal];
     
     
-    _statusesCountLabel.text = [NSString stringWithFormat:@"共%@条微博",_model.statusesCount];
+    _statusesCountLabel.text = [NSString stringWithFormat:@"微博%@",_model.statusesCount];
     
     
     

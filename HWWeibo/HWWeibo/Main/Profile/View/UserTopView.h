@@ -36,7 +36,7 @@
  */
 @property (nonatomic, strong) ThemeLabel *screenNameLabel;
 
-@property (nonatomic, strong) ThemeLabel *provinceLabel;
+//@property (nonatomic, strong) ThemeLabel *provinceLabel;
 
 @property (nonatomic, strong) ThemeLabel *cityLabel;
 
@@ -44,7 +44,7 @@
 
 @property (nonatomic, strong) UIImageView *profileImageView;
 
-@property (nonatomic, strong) ThemeLabel *genderLabel;
+//@property (nonatomic, strong) ThemeLabel *genderLabel;
 
 @property (nonatomic, strong) UIButton *followersCountButton;
 

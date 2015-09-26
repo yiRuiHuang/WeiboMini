@@ -118,17 +118,17 @@
     
 }
 
-- (void)mapView:(MKMapView *)mapView didSelectAnnotationView:(MKAnnotationView *)view {
-    
-    WeiboDetailViewController *detailVC = [[WeiboDetailViewController alloc] init];
-    
-    WeiboAnnotation *annoation = (WeiboAnnotation *)view.annotation;
-    WeiboModal *weiboModel = annoation.model;
-    
-    detailVC.weiboView.layoutFrame.weiboModal = weiboModel;
-    [self.navigationController pushViewController:detailVC animated:YES];
-
-}
+//- (void)mapView:(MKMapView *)mapView didSelectAnnotationView:(MKAnnotationView *)view {
+//    
+//    WeiboDetailViewController *detailVC = [[WeiboDetailViewController alloc] init];
+//    
+//    WeiboAnnotation *annoation = (WeiboAnnotation *)view.annotation;
+//    WeiboModal *weiboModel = annoation.model;
+//    
+//    detailVC.weiboView.layoutFrame.weiboModal = weiboModel;
+//    [self.navigationController pushViewController:detailVC animated:YES];
+//
+//}
 
 
 - (void)_location {

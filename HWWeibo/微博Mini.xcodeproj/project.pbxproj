@@ -26,6 +26,12 @@
 		421768E81B8D9D9E00A4DF82 /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 421768D31B8D9D9E00A4DF82 /* UIScrollView+MJExtension.m */; };
 		421768E91B8D9D9E00A4DF82 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 421768D51B8D9D9E00A4DF82 /* UIScrollView+MJRefresh.m */; };
 		421768EA1B8D9D9E00A4DF82 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 421768D71B8D9D9E00A4DF82 /* UIView+MJExtension.m */; };
+		423EAB181BB697A10011E475 /* AppIcon29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = 423EAB121BB697A10011E475 /* AppIcon29x29.png */; settings = {ASSET_TAGS = (); }; };
+		423EAB191BB697A10011E475 /* AppIcon29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 423EAB131BB697A10011E475 /* AppIcon29x29@2x.png */; settings = {ASSET_TAGS = (); }; };
+		423EAB1A1BB697A10011E475 /* AppIcon40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 423EAB141BB697A10011E475 /* AppIcon40x40@2x.png */; settings = {ASSET_TAGS = (); }; };
+		423EAB1B1BB697A10011E475 /* AppIcon40x40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 423EAB151BB697A10011E475 /* AppIcon40x40@3x.png */; settings = {ASSET_TAGS = (); }; };
+		423EAB1C1BB697A10011E475 /* AppIcon60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 423EAB161BB697A10011E475 /* AppIcon60x60@2x.png */; settings = {ASSET_TAGS = (); }; };
+		423EAB1D1BB697A10011E475 /* AppIcon60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 423EAB171BB697A10011E475 /* AppIcon60x60@3x.png */; settings = {ASSET_TAGS = (); }; };
 		4242F80D1B8422F50067EE05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4242F80C1B8422F50067EE05 /* main.m */; };
 		4242F8101B8422F50067EE05 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4242F80F1B8422F50067EE05 /* AppDelegate.m */; };
 		4242F8181B8422F50067EE05 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4242F8171B8422F50067EE05 /* Images.xcassets */; };
@@ -550,14 +556,20 @@
 		421768D51B8D9D9E00A4DF82 /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
 		421768D61B8D9D9E00A4DF82 /* UIView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJExtension.h"; sourceTree = "<group>"; };
 		421768D71B8D9D9E00A4DF82 /* UIView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
-		4242F8071B8422F50067EE05 /* HWWeibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HWWeibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		423EAB121BB697A10011E475 /* AppIcon29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon29x29.png; sourceTree = "<group>"; };
+		423EAB131BB697A10011E475 /* AppIcon29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon29x29@2x.png"; sourceTree = "<group>"; };
+		423EAB141BB697A10011E475 /* AppIcon40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon40x40@2x.png"; sourceTree = "<group>"; };
+		423EAB151BB697A10011E475 /* AppIcon40x40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon40x40@3x.png"; sourceTree = "<group>"; };
+		423EAB161BB697A10011E475 /* AppIcon60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon60x60@2x.png"; sourceTree = "<group>"; };
+		423EAB171BB697A10011E475 /* AppIcon60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon60x60@3x.png"; sourceTree = "<group>"; };
+		4242F8071B8422F50067EE05 /* 微博Mini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "微博Mini.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4242F80B1B8422F50067EE05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4242F80C1B8422F50067EE05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4242F80E1B8422F50067EE05 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4242F80F1B8422F50067EE05 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4242F8171B8422F50067EE05 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4242F81A1B8422F50067EE05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		4242F8201B8422F50067EE05 /* HWWeiboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HWWeiboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4242F8201B8422F50067EE05 /* 微博Mini.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "微博Mini.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4242F8251B8422F50067EE05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4242F8261B8422F50067EE05 /* HWWeiboTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWWeiboTests.m; sourceTree = "<group>"; };
 		4242F8461B8424220067EE05 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
@@ -1242,14 +1254,27 @@
 			path = Header;
 			sourceTree = "<group>";
 		};
+		423EAB111BB697A10011E475 /* myicon */ = {
+			isa = PBXGroup;
+			children = (
+				423EAB121BB697A10011E475 /* AppIcon29x29.png */,
+				423EAB131BB697A10011E475 /* AppIcon29x29@2x.png */,
+				423EAB141BB697A10011E475 /* AppIcon40x40@2x.png */,
+				423EAB151BB697A10011E475 /* AppIcon40x40@3x.png */,
+				423EAB161BB697A10011E475 /* AppIcon60x60@2x.png */,
+				423EAB171BB697A10011E475 /* AppIcon60x60@3x.png */,
+			);
+			path = myicon;
+			sourceTree = "<group>";
+		};
 		4242F7FE1B8422F50067EE05 = {
 			isa = PBXGroup;
 			children = (
 				4250CA571B95404B0077BDE0 /* CoreLocation.framework */,
 				42A6FC351B8C55AB0022D080 /* CoreText.framework */,
 				42A6FC301B8C53DB0022D080 /* libicucore.dylib */,
-				4242F8091B8422F50067EE05 /* HWWeibo */,
-				4242F8231B8422F50067EE05 /* HWWeiboTests */,
+				4242F8091B8422F50067EE05 /* Weibo */,
+				4242F8231B8422F50067EE05 /* WeiboTests */,
 				4242F8081B8422F50067EE05 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1257,13 +1282,13 @@
 		4242F8081B8422F50067EE05 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4242F8071B8422F50067EE05 /* HWWeibo.app */,
-				4242F8201B8422F50067EE05 /* HWWeiboTests.xctest */,
+				4242F8071B8422F50067EE05 /* 微博Mini.app */,
+				4242F8201B8422F50067EE05 /* 微博Mini.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4242F8091B8422F50067EE05 /* HWWeibo */ = {
+		4242F8091B8422F50067EE05 /* Weibo */ = {
 			isa = PBXGroup;
 			children = (
 				4257B2FB1B91E53300C07177 /* AFNetworking */,
@@ -1283,6 +1308,7 @@
 				4242F80A1B8422F50067EE05 /* Supporting Files */,
 				4242F8661B8428E10067EE05 /* Weibo_Prefix.pch */,
 			);
+			name = Weibo;
 			path = HWWeibo;
 			sourceTree = "<group>";
 		};
@@ -1296,12 +1322,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		4242F8231B8422F50067EE05 /* HWWeiboTests */ = {
+		4242F8231B8422F50067EE05 /* WeiboTests */ = {
 			isa = PBXGroup;
 			children = (
 				4242F8261B8422F50067EE05 /* HWWeiboTests.m */,
 				4242F8241B8422F50067EE05 /* Supporting Files */,
 			);
+			name = WeiboTests;
 			path = HWWeiboTests;
 			sourceTree = "<group>";
 		};
@@ -1539,6 +1566,7 @@
 		4242F8671B842B770067EE05 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				423EAB111BB697A10011E475 /* myicon */,
 				425A0AE51B8817B40033B22A /* Skins */,
 				4242F8681B842B770067EE05 /* compose_savebutton_background.png */,
 				4242F8691B842B770067EE05 /* compose_savebutton_background@2x.png */,
@@ -2220,9 +2248,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4242F8061B8422F50067EE05 /* HWWeibo */ = {
+		4242F8061B8422F50067EE05 /* 微博Mini */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4242F82A1B8422F50067EE05 /* Build configuration list for PBXNativeTarget "HWWeibo" */;
+			buildConfigurationList = 4242F82A1B8422F50067EE05 /* Build configuration list for PBXNativeTarget "微博Mini" */;
 			buildPhases = (
 				4242F8031B8422F50067EE05 /* Sources */,
 				4242F8041B8422F50067EE05 /* Frameworks */,
@@ -2232,14 +2260,14 @@
 			);
 			dependencies = (
 			);
-			name = HWWeibo;
+			name = "微博Mini";
 			productName = HWWeibo;
-			productReference = 4242F8071B8422F50067EE05 /* HWWeibo.app */;
+			productReference = 4242F8071B8422F50067EE05 /* 微博Mini.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4242F81F1B8422F50067EE05 /* HWWeiboTests */ = {
+		4242F81F1B8422F50067EE05 /* 微博MiniTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4242F82D1B8422F50067EE05 /* Build configuration list for PBXNativeTarget "HWWeiboTests" */;
+			buildConfigurationList = 4242F82D1B8422F50067EE05 /* Build configuration list for PBXNativeTarget "微博MiniTests" */;
 			buildPhases = (
 				4242F81C1B8422F50067EE05 /* Sources */,
 				4242F81D1B8422F50067EE05 /* Frameworks */,
@@ -2250,9 +2278,9 @@
 			dependencies = (
 				4242F8221B8422F50067EE05 /* PBXTargetDependency */,
 			);
-			name = HWWeiboTests;
+			name = "微博MiniTests";
 			productName = HWWeiboTests;
-			productReference = 4242F8201B8422F50067EE05 /* HWWeiboTests.xctest */;
+			productReference = 4242F8201B8422F50067EE05 /* 微博Mini.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -2266,6 +2294,7 @@
 				TargetAttributes = {
 					4242F8061B8422F50067EE05 = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 4RE86257QJ;
 					};
 					4242F81F1B8422F50067EE05 = {
 						CreatedOnToolsVersion = 6.3;
@@ -2273,7 +2302,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4242F8021B8422F50067EE05 /* Build configuration list for PBXProject "HWWeibo" */;
+			buildConfigurationList = 4242F8021B8422F50067EE05 /* Build configuration list for PBXProject "微博Mini" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -2286,8 +2315,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4242F8061B8422F50067EE05 /* HWWeibo */,
-				4242F81F1B8422F50067EE05 /* HWWeiboTests */,
+				4242F8061B8422F50067EE05 /* 微博Mini */,
+				4242F81F1B8422F50067EE05 /* 微博MiniTests */,
 			);
 		};
 /* End PBXProject section */
@@ -2340,6 +2369,7 @@
 				4242FA361B842B780067EE05 /* 038@2x.png in Resources */,
 				4242FAB31B842B790067EE05 /* 080.png in Resources */,
 				4242FB131B842B790067EE05 /* nearby_map_people_bg.png in Resources */,
+				423EAB181BB697A10011E475 /* AppIcon29x29.png in Resources */,
 				4242FB0F1B842B790067EE05 /* nearby_map_content.png in Resources */,
 				4242FAD91B842B790067EE05 /* 093.gif in Resources */,
 				425A8E6B1B9010B6001D5290 /* Icon-Small@2x.png in Resources */,
@@ -2410,6 +2440,7 @@
 				4242FAB41B842B790067EE05 /* 080@2x.png in Resources */,
 				4242FADF1B842B790067EE05 /* 095.gif in Resources */,
 				4242FA1A1B842B780067EE05 /* 029.png in Resources */,
+				423EAB1B1BB697A10011E475 /* AppIcon40x40@3x.png in Resources */,
 				4242FA941B842B790067EE05 /* 070.gif in Resources */,
 				4242F9CD1B842B780067EE05 /* 003.gif in Resources */,
 				4242FA031B842B780067EE05 /* 021@2x.png in Resources */,
@@ -2505,6 +2536,7 @@
 				4242FA471B842B780067EE05 /* 044.png in Resources */,
 				4242FA2A1B842B780067EE05 /* 034@2x.png in Resources */,
 				4242FA241B842B780067EE05 /* 032@2x.png in Resources */,
+				423EAB1C1BB697A10011E475 /* AppIcon60x60@2x.png in Resources */,
 				4242F8181B8422F50067EE05 /* Images.xcassets in Resources */,
 				4242FA0F1B842B780067EE05 /* 025@2x.png in Resources */,
 				4242FB121B842B790067EE05 /* nearby_map_people@2x.png in Resources */,
@@ -2610,6 +2642,7 @@
 				4242FA6A1B842B790067EE05 /* 056.gif in Resources */,
 				4242FAE71B842B790067EE05 /* 097@2x.png in Resources */,
 				4242F9DD1B842B780067EE05 /* 008.png in Resources */,
+				423EAB1D1BB697A10011E475 /* AppIcon60x60@3x.png in Resources */,
 				4242FB141B842B790067EE05 /* nearby_map_people_bg@2x.png in Resources */,
 				4242FACA1B842B790067EE05 /* 088.gif in Resources */,
 				4242FAAA1B842B790067EE05 /* 077.png in Resources */,
@@ -2617,8 +2650,10 @@
 				4242FA971B842B790067EE05 /* 071.gif in Resources */,
 				4242FA4E1B842B780067EE05 /* 046@2x.png in Resources */,
 				4242FA2B1B842B780067EE05 /* 035.gif in Resources */,
+				423EAB191BB697A10011E475 /* AppIcon29x29@2x.png in Resources */,
 				4242FA021B842B780067EE05 /* 021.png in Resources */,
 				4242FAF71B842B790067EE05 /* 103.gif in Resources */,
+				423EAB1A1BB697A10011E475 /* AppIcon40x40@2x.png in Resources */,
 				4242FAAC1B842B790067EE05 /* 078.gif in Resources */,
 				4242FA481B842B780067EE05 /* 044@2x.png in Resources */,
 				4242FA781B842B790067EE05 /* 060@2x.png in Resources */,
@@ -2818,7 +2853,7 @@
 /* Begin PBXTargetDependency section */
 		4242F8221B8422F50067EE05 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4242F8061B8422F50067EE05 /* HWWeibo */;
+			target = 4242F8061B8422F50067EE05 /* 微博Mini */;
 			targetProxy = 4242F8211B8422F50067EE05 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -2919,11 +2954,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/HWWeibo/Weibo_Prefix.pch";
 				INFOPLIST_FILE = HWWeibo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = hyr.WeiboMini;
+				PRODUCT_NAME = "微博Mini";
 			};
 			name = Debug;
 		};
@@ -2931,11 +2969,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/HWWeibo/Weibo_Prefix.pch";
 				INFOPLIST_FILE = HWWeibo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = hyr.WeiboMini;
+				PRODUCT_NAME = "微博Mini";
 			};
 			name = Release;
 		};
@@ -2953,8 +2994,8 @@
 				);
 				INFOPLIST_FILE = HWWeiboTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HWWeibo.app/HWWeibo";
+				PRODUCT_NAME = "微博Mini";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/微博Mini.app/微博Mini";
 			};
 			name = Debug;
 		};
@@ -2968,15 +3009,15 @@
 				);
 				INFOPLIST_FILE = HWWeiboTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HWWeibo.app/HWWeibo";
+				PRODUCT_NAME = "微博Mini";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/微博Mini.app/微博Mini";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4242F8021B8422F50067EE05 /* Build configuration list for PBXProject "HWWeibo" */ = {
+		4242F8021B8422F50067EE05 /* Build configuration list for PBXProject "微博Mini" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4242F8281B8422F50067EE05 /* Debug */,
@@ -2985,7 +3026,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4242F82A1B8422F50067EE05 /* Build configuration list for PBXNativeTarget "HWWeibo" */ = {
+		4242F82A1B8422F50067EE05 /* Build configuration list for PBXNativeTarget "微博Mini" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4242F82B1B8422F50067EE05 /* Debug */,
@@ -2994,7 +3035,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4242F82D1B8422F50067EE05 /* Build configuration list for PBXNativeTarget "HWWeiboTests" */ = {
+		4242F82D1B8422F50067EE05 /* Build configuration list for PBXNativeTarget "微博MiniTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4242F82E1B8422F50067EE05 /* Debug */,

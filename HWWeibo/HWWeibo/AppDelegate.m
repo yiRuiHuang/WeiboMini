@@ -108,6 +108,7 @@
     [[NSUserDefaults standardUserDefaults] setObject:authData forKey:@"SinaWeiboAuthDatar"];
     [[NSUserDefaults standardUserDefaults] synchronize];
     NSLog(@"登录成功");
+    
 }
 
 - (void)sinaweiboDidLogOut:(SinaWeibo *)sinaweibo {

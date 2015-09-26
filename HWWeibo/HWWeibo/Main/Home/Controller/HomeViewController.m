@@ -67,6 +67,8 @@
 }
 
 - (void)_loadNewData {
+    
+    
     SinaWeibo * sina = [self sinaweibo];
     if ([sina isAuthValid]) {
         NSMutableDictionary *params = [NSMutableDictionary dictionary];
@@ -124,8 +126,11 @@
         
     } else {
         [sina logIn];
+     
     }
 }
+
+
 
 #pragma  mark  - <SinaWeiboRequestDelegate>
 - (void)request:(SinaWeiboRequest *)request didFinishLoadingWithResult:(id)result {
